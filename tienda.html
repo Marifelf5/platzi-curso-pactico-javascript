@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Hind+Siliguri:wght@400;600&family=Inter:wght@300;400&family=Montserrat:wght@100&family=Nunito:wght@200;700;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!---<section class="container">--->
+    <header>
+        <h1>Bienvenidos a nuestra tienda</h1>
+        <p>Aqui podra conseguir maravillosos descuentos </p>
+        <div>
+            <h2>Calcula el precio a pagar con tus descuentos </h2>
+        </div>
+    </header>
+
+    <figure>
+        <img class="memedinero" src="./toma-todo-mi-9bfd2b3bd9.jpg" alt="Memededinero">
+    </figure>
+
+    <section class="main-container">
+        <form action="inputprice">
+            <div class="inputprice">
+            <label for=""> ¿Cúal es el precio? <br>
+                <input id="inputprice" type="Number" placeholder="Precio del producto">
+            </label>
+            </div>
+
+            <div class="inputDiscount">
+            <label for="inputDiscount"> ¿Cuánto es el descuento? <br>
+                <input id="inputDiscount"type="Number" placeholder="Descuento en porcentaje"><br>
+                <button class="buttonprice" type="button" onclick="precionuevo()">Calcular nuevo precio</button> <br>
+            </label>
+            </div>
+        </form>
+       
+    </section>
+    <p id="resultP"></p>  
+    <script src="./tienda.js"></script>
+</body>
+</html>
