@@ -41,10 +41,33 @@ h2{
 p{
     font-family: 'Nunito', sans-serif;
     font-size: 1.3rem;
+    margin-top: 10px;
 }
 
 label{
     margin:30px;
 }
 
+button{
+    padding: 7px 7px;
+    font-family:'Nunito', sans-serif; 
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top:18px;
+    margin-left: 25px;
+    background-color: white;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px;
+}
+
+#InputCuadrado, #InputTriangulo1, #InputTriangulo2, 
+#InputTriangulobase, #InputTrianguloaltura, #InputCirculo{
+    margin:30px;
+    padding: 10px;
+  
+}
+
+label{
+    font-family: 'Nunito', sans-serif;
+}
 
